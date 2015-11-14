@@ -3,6 +3,11 @@ var rp = require('request-promise');
 var Toggle = require('../toggle/toggle');
 
 var VpnSwitcher = React.createClass({
+	getInitialState: function () {
+		return {
+			switching: false
+		};
+	},
 	componentDidMount: function() {
 		rp.get({
 			url: this.props.connectionsSource,
@@ -26,7 +31,7 @@ var VpnSwitcher = React.createClass({
 			json: true
 		}).then(function(result) {
 			this.setState({
-				switching: true
+				switching: false
 			});
 			console.log(result);
 		}.bind(this));
@@ -46,7 +51,6 @@ var VpnSwitcher = React.createClass({
 		return (
 			<div className="vpn-switcher">
 				{toggles ? toggles : 'Loading connections...'}
-				{this.state ? this.state.switching : 'hn'}
 			</div>
 		);
 	}
