@@ -1,0 +1,36 @@
+{
+  "name": "nm-vpn-web",
+  "version": "0.0.0",
+  "description": "Web client for nm-vpn-rest",
+  "dependencies": {
+    "ajax-promise": "^0.8.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babelify": "^7.2.0"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "reactify": "^1.1.1",
+    "request-promise": "^1.0.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsravenous/nm-vpn-web.git"
+  },
+  "keywords": [
+    "Network",
+    "Manager",
+    "VPN",
+    "network"
+  ],
+  "author": "Tom Jenkins <tom@itsravenous.com> (http://itsravenous.com)",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/itsravenous/nm-vpn-web/issues"
+  },
+  "homepage": "https://github.com/itsravenous/nm-vpn-web#readme"
+}
