@@ -1,6 +1,6 @@
 {
   "name": "nm-vpn-web",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Web client for nm-vpn-rest",
   "dependencies": {
     "ajax-promise": "^0.8.1",
@@ -11,6 +11,8 @@
   "devDependencies": {
     "browserify": "^12.0.1",
     "gulp": "^3.9.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
     "reactify": "^1.1.1",
     "request-promise": "^1.0.2",
     "vinyl-source-stream": "^1.1.0"
